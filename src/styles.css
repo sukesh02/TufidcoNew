@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.carousel-caption {
+    color: rgb(2, 2, 2);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    display: block;
+    margin: auto;
+}
+
+.carousel-control-next {
+  right: 30%;
+}
+
+.carousel-control-prev {
+  left: 30%;
+}
