@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './footer/footer.component';
 import { FundsComponent } from './funds/funds.component';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { FundsComponent } from './funds/funds.component';
     AppComponent,
     HomeComponent,
     NavbarComponent,
+    FooterComponent,
     FundsComponent
   ],
   imports: [
