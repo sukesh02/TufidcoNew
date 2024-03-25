@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  newsItems = [
+    'News item 1',
+    'News item 2',
+    'This is a longer news item that will scroll horizontally.',
+    'More news!'
+  ];
 }
