@@ -1,8 +1,11 @@
 .expansion {
-  font-size: xx-large;
-  text-wrap: nowrap;
+  font-size: 38px;
   font-family: "Andada Pro", serif;
   color: #196094;
+}
+
+.sf{
+  font-size: 40px;
 }
 
 .container {
