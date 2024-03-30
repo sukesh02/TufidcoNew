@@ -1,7 +1,12 @@
 .companyLogo {
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   background: none;
+}
+
+.navbar-brand{
+  text-align: center;
+  font-family: 'Andada Pro',serif;
 }
 
 .container {
@@ -12,4 +17,16 @@
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.rounded-4 {
+  background:
+    /* radial-gradient(circle closest-side, currentColor 80%, transparent) bottom var(--p1, 0px) left 50% /100% var(--p, 12px) no-repeat, */
+    linear-gradient(currentColor 0 0,black) bottom 4px left 50%/var(--d, 0%) 3px no-repeat;
+  transition: 0.3s;  
+}
+.rounded-4:hover {
+  --d: 100%;
+  --p: 3px;
+  --p1: 4px;
 }

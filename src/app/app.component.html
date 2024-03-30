@@ -1,3 +1,9 @@
+<app-topbar></app-topbar>
 <app-navbar></app-navbar>
-<app-footer></app-footer>
-<router-outlet></router-outlet>
+<div class="flex-container" *ngIf="showHomeComponent">
+    <app-home></app-home>
+  </div>
+  <div class="flex-container">
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>

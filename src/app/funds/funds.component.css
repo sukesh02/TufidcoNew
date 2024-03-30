@@ -1,67 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
-body{
-    margin: 0;
+.content-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .intro{
-    height: 57vh;
-    background-color: #002746;
-    color: ghostwhite;
-    text-align: left;
-    font-size: 70px;
-    font-family: 'Instrument Sans',sans-serif;
-}
-
-.fullform{
-    margin-left: 20px ;
-    padding-top: 30px;
-}
-
-.content{
+    line-height: 7vh;
+    color: rgb(30, 48, 80);
     text-align: center;
-    font-size: 22px;
-    color: #121212;
-    font-family: 'Instrument Sans',sans-serif;
-    /* padding-left: 10px;
-    padding-right: 10px; */
-}
-
-.heading{
-    padding: 20px 0;
-    /* border-bottom: 1px solid #000; */
+    font-size:40px;
+    /* font-weight: 600,semi-bold; */
+    font-family: 'Andada Pro', sans-serif;
+    letter-spacing: -0.52px;
+    padding-top: 40px;
     margin-bottom: 20px;
 }
 
-hr{
-    /* border-bottom: 10px; */
-    opacity: 1;
-    margin: 0rem 10rem 0rem 10rem;
-}
-
 .abcd{
-    color: #002746;
-    margin-left: 10px ;
-    margin-right: 10px;
+    color: #4d4d4d;
+    padding-left:5px ;
+    padding-right:5px;
     text-align: center!important;
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'Instrument Sans',sans-serif;
 }
 
-.accordion{
-    padding-top: 20px;
-    padding-left: 160px;
-    padding-right: 160px;
-    /* background-color: #86b7fe; */
-    /* border-color: #121212; */
-    margin-bottom: 30px;
+.sch{
+    background-color: #F5F5F5;
+    color: black;
+    /* font-size: 70px; */
+    overflow-y: auto;
 }
-/* 
-.accordion-button{
-    background-color:#cfe2ff;
-} */
 
-.list-group-item{
-    font-size: 22px;
-    font-family: 'Instrument Sans',sans-serif ;
+.heading{
+    text-align: left;
+    padding: 1%;
+    padding-top: 2%;
+    margin-bottom: 0px;
+    /* display: inline-block; */
+    font-size: 30px;
+    color: rgb(30, 48, 80);
+    font-family: 'Andada Pro', sans-serif;
 }
+
+.fundcont{
+    /* margin: 27px ; */
+    color: #4d4d4d;
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* padding-bottom: 1%; */
+    /* padding-top: 30px; */
+    font-size: 19px;
+    font-family: 'Instrument Sans',sans-serif;
+}
+
+li {
+    color:#4d4d4d;
+    list-style:none;
+    position: relative;
+    padding-left:40px;
+    line-height: 2;
+    font-size:19px;
+  }
+  
+  li:before {
+    font-family:FontAwesome;
+    position: absolute;
+    left: 0;
+    color: rgb(30, 48, 80);
+    font-size:19px;
+  }
+  
+  li.one:before {
+    content:"\f058";
+  }
+
+  li:hover:before {
+    color:#196094;
+  }

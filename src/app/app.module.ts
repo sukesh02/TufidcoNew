@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './footer/footer.component';
 import { FundsComponent } from './funds/funds.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FundsComponent } from './funds/funds.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    FundsComponent
+    FundsComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,
