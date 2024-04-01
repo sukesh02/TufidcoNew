@@ -15,19 +15,18 @@
     background:
         linear-gradient(90deg, transparent, rgb(252, 251, 251), transparent) bottom /var(--d, 0) 3px no-repeat;
     transition: 0.3s;
-
 }
 
 .underline-on-hover:hover {
     --d: 100%;
 }
 
-.m-0 {
+.topbar {
     background-color: #200249;
     /* height: 30px; */
     width: 100%;
 }
 
-.x {
+.topbar-content {
     list-style: none;
 }
